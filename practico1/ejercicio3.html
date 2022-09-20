@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 3</title>
+</head>
+
+<!-- 3.	Escribir un programa que mediante un formulario html un usuario pueda ingresar su nombre, 
+    apellido y edad para que sean enviados al servidor. El programa, debe recibir los datos y 
+    mostrar la información por pantalla. 
+
+    a.	Envíe el formulario usando los métodos POST y GET. ¿Cuál es la diferencia? 
+    ¿En qué situaciones considera mejor utilizar uno u el otro?
+
+    b.	Investigue las diferencias entre los arreglos $_POST $_GET y $_REQUEST de PHP
+
+    c.	Genere validaciones de datos en el servidor. Ningún campo puede estar vacío
+    ¿Cuál es la diferencia entre realizar estas verificaciones del lado del cliente o del lado del servidor?  
+-->
+
+
+<body>
+   
+    <!-- Fomrulario con METODO GET -->
+<!-- <p>Form GET</p>
+<form action="ejercicio3.php" method="get">
+    <label for="Nombre">Nombre</label>
+    <input type="text" name="nombre1">
+    <label for="Apellido">Apellido</label>
+    <input type="text" name="apellido1">
+    <label for="Edad">Edad</label>
+    <input type="number" name="edad1">
+    
+    <button type="submit">Enviar</button>
+    
+</form> -->
+
+<!-- Formulario con METODO POST -->
+<p>Form POST</p>
+<form action="ejercicio3.php" method="post">
+    <label for="Nombre">Nombre</label>
+    <input type="text" name="nombre2">
+    <label for="Apellido">Apellido</label>
+    <input type="text" name="apellido2">
+    <label for="Edad">Edad</label>
+    <input type="number" name="edad2">
+    
+    <button type="submit">Enviar</button>
+    
+</form>
+
+</body>
+</html>

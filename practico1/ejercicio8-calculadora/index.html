@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Calculadora</a></li>
+            <li><a href="pi.php">Número Pi</a></li>
+            <li><a href="about.php">Nosotros</a></li>
+        </ul>
+    </nav>
+
+    <h1>Calculadora</h1>
+
+    <form action="calculadora.php" method="get">
+        <label for="">Operando 1</label> <input type="number" name="valor1" id="">
+        <label for="">Operando 2</label> <input type="number" name="valor2" id="">
+        <select name="operador" id="">
+            <option value="sumar">Sumar</option>
+            <option value="restar">Restar</option>
+            <option value="dividir">Dividir</option>
+            <option value="multiplicar">Multiplicar</option>
+        </select>
+        <button type="submit">Calcular</button>
+    </form>
+
+</body>
+</html>
